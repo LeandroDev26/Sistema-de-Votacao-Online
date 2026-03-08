@@ -15,7 +15,7 @@ Seguindo os requisitos do Trabalho Final, o sistema utiliza:
 
 
 ## 🛠️ Requisitos e Arquitetura
-* **Persistência:** Os votos e enquetes são salvos em [Arquivo de Texto / Banco de Dados], garantindo que os dados não sejam perdidos ao reiniciar.
+* **Persistência:** Os votos e enquetes são salvos em Banco de Dados (PostgreSQL), garantindo que os dados não sejam perdidos ao reiniciar.
 * **Camadas (MVC):** Separação clara entre as entidades de dados (Model), a lógica de validação (Controller) e a exibição dos resultados (View).
 * **Segurança:** Controle básico para evitar votos duplicados e acessos não autorizados.
 
