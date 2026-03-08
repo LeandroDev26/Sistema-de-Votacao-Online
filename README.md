@@ -10,7 +10,7 @@ Seguindo os requisitos do Trabalho Final, o sistema utiliza:
 
 * **Singleton (Criacional):** Aplicado na classe `GerenciadorVotacao`, garantindo que exista apenas uma instância responsável por centralizar a contagem de votos em todo o sistema.
 * **Proxy (Estrutural):** Utilizado como uma camada de segurança antes do registro do voto. O Proxy verifica se o usuário está autenticado ou se já votou antes de permitir o acesso ao objeto real de votação.
-* **Observer (Comportamental):** Implementado para atualizar o painel de resultados. Sempre que um novo voto é computado, os "observadores" (como gráficos ou contadores na interface) são notificados automaticamente.
+* **Observer (Comportamental):** Implementado para atualizar o painel de resultados. Sempre que um novo voto é computado, os "observadores" são notificados automaticamente.
 
 
 
