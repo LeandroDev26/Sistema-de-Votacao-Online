@@ -19,10 +19,6 @@ Seguindo os requisitos do Trabalho Final, o sistema utiliza:
 * **Camadas (MVC):** Separação clara entre as entidades de dados (Model), a lógica de validação (Controller) e a exibição dos resultados (View).
 * **Segurança:** Controle básico para evitar votos duplicados e acessos não autorizados.
 
-## 📁 Estrutura do Repositório
-* `/src`: Código-fonte organizado por pacotes de padrões e camadas.
-* `/docs`: Contém o **Diagrama de Classes** (UML) e o relatório técnico justificando o uso de cada padrão.
-* `/data`: Local de armazenamento dos arquivos de persistência.
 
 ## 💻 Como executar
 1. Clone o repositório.
